@@ -1,0 +1,10 @@
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\obj\Debug\Ejercicio_08.csprojAssemblyReference.cache
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\obj\Debug\Ejercicio_08.Form1.resources
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\obj\Debug\Ejercicio_08.Properties.Resources.resources
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\obj\Debug\Ejercicio_08.csproj.GenerateResource.cache
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\obj\Debug\Ejercicio_08.csproj.CoreCompileInputs.cache
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\bin\Debug\Ejercicio_08.exe.config
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\bin\Debug\Ejercicio_08.exe
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\bin\Debug\Ejercicio_08.pdb
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\obj\Debug\Ejercicio_08.exe
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_08\obj\Debug\Ejercicio_08.pdb

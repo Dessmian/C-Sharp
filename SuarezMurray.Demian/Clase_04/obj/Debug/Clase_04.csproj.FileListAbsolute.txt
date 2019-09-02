@@ -1,0 +1,10 @@
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\bin\Debug\Clase_04.exe.config
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\bin\Debug\Clase_04.exe
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\bin\Debug\Clase_04.pdb
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\bin\Debug\Clase_04.Entidades.dll
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\bin\Debug\Clase_04.Entidades.pdb
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\obj\Debug\Clase_04.csprojAssemblyReference.cache
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\obj\Debug\Clase_04.csproj.CoreCompileInputs.cache
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\obj\Debug\Clase_04.csproj.CopyComplete
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\obj\Debug\Clase_04.exe
+D:\VisualStudio\SuarezMurray.Demian\Clase_04\obj\Debug\Clase_04.pdb

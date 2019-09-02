@@ -1,0 +1,10 @@
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\bin\Debug\Ejercicio_09.exe.config
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\bin\Debug\Ejercicio_09.exe
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\bin\Debug\Ejercicio_09.pdb
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\bin\Debug\ClassLibrary1.dll
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\bin\Debug\ClassLibrary1.pdb
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\obj\Debug\Ejercicio_09.csprojAssemblyReference.cache
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\obj\Debug\Ejercicio_09.csproj.CoreCompileInputs.cache
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\obj\Debug\Ejercicio_09.csproj.CopyComplete
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\obj\Debug\Ejercicio_09.exe
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_09\obj\Debug\Ejercicio_09.pdb

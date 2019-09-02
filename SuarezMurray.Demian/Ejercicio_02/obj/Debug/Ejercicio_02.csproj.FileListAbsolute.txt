@@ -1,0 +1,7 @@
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_02\obj\Debug\Ejercicio_02.csprojAssemblyReference.cache
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_02\obj\Debug\Ejercicio_02.csproj.CoreCompileInputs.cache
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_02\bin\Debug\Ejercicio_02.exe.config
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_02\bin\Debug\Ejercicio_02.exe
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_02\bin\Debug\Ejercicio_02.pdb
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_02\obj\Debug\Ejercicio_02.exe
+C:\Users\screw\Desktop\C--master\SuarezMurray.Demian\Ejercicio_02\obj\Debug\Ejercicio_02.pdb
