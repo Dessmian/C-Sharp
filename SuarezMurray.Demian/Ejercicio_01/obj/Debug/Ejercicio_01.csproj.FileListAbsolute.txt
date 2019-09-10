@@ -19,3 +19,10 @@ D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\
 D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
 D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\Ejercicio_01.exe
 D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\Ejercicio_01.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Ejercicio_01\bin\Debug\Ejercicio_01.exe.config
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Ejercicio_01\bin\Debug\Ejercicio_01.exe
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Ejercicio_01\bin\Debug\Ejercicio_01.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\Ejercicio_01.csprojAssemblyReference.cache
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\Ejercicio_01.csproj.CoreCompileInputs.cache
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\Ejercicio_01.exe
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Ejercicio_01\obj\Debug\Ejercicio_01.pdb

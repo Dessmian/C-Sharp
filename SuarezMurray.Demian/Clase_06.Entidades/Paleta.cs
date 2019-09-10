@@ -8,7 +8,7 @@ using Extensions;
 
 namespace Clase_06.Entidades
 {
-    class Paleta
+    public class Paleta
     {
         private Tempera[] colores;
         private int cantidadMaximaColores;

@@ -18,12 +18,15 @@ namespace Clase_06.Entidades
             this.marca = brnd;
             this.cantidad = ammnt;
         }
+        public Tempera MiTempera {
+            get { return this; }
+        }
         private string Mostrar()
         {
             string retString = "nullObject";
             if (!this.Equals(null))
             {
-                retString = this.color.ToString() + " - " + this.marca + " - " + this.cantidad.ToString();
+                retString = this.marca + " - " + this.color.ToString() + " - " + this.cantidad.ToString();
             }
             return retString;
         }
