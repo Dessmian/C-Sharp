@@ -10,7 +10,7 @@ namespace Clase_06.Entidades
 {
     public class Paleta
     {
-        private Tempera[] colores;
+        public Tempera[] colores;
         private int cantidadMaximaColores;
 
         private Paleta():this(5){}
@@ -21,7 +21,16 @@ namespace Clase_06.Entidades
         }
         public static implicit operator Paleta(int ammnt)
         {
-            return new Paleta(ammnt);
+            if (ammnt>0)
+            {
+                Paleta p = new Paleta(ammnt);
+                return p;
+            }
+            else
+            {
+                Paleta p = new Paleta(5);
+                return p;
+            }
         }
         private string Mostrar()
         {
@@ -33,6 +42,7 @@ namespace Clase_06.Entidades
                 retString = "Cantidad maxima: " + this.cantidadMaximaColores.ToString();
                 if (this.colores.Count().IsGreaterThan(0))
                 {
+                    //Usar foreach
                     retString += " Temperas: ";
                     for (i=0; i<j;i++)
                     {
@@ -48,15 +58,24 @@ namespace Clase_06.Entidades
             int retIndex = -1;
             if (!this.Equals(null))
             {
-                int i;
-                for (i=0;i<this.cantidadMaximaColores;i++)
+                int i = 0;
+                foreach(Tempera t in this.colores)
+                {
+                    if (Object.Equals(t,null))
+                    {
+                        retIndex = i;
+                        break;
+                    }
+                    i++;
+                }
+                /*for (i=0;i<this.cantidadMaximaColores;i++)
                 {
                     if (this.colores[i].Equals(null))
                     {
                         retIndex = i;
                         break;
                     }
-                }
+                }*/
             }
             return retIndex;
         }
@@ -69,15 +88,31 @@ namespace Clase_06.Entidades
             bool retBool = false;
             if (!inPalet.Equals(null))
             {
-                int i;
-                for (i=0;i<inPalet.cantidadMaximaColores;i++)
+                foreach(Tempera t in inPalet.colores)
                 {
-                    if (inPalet.colores[i]==inTemp)
+                    if (!Object.Equals(t,null))
+                    {
+
+                    if (t==inTemp)
                     {
                         retBool = true;
                         break;
                     }
+                    }
                 }
+                /*int i;
+                for (i=0;i<inPalet.cantidadMaximaColores;i++)
+                {
+                    //if (!inPalet.colores[i].Equals(null))
+                    //{
+                        if (inPalet.colores[i]==inTemp)
+                        {
+                              retBool = true;
+                              break;
+                        }
+                    //}
+                    
+                }*/
             }
             return retBool;
         }

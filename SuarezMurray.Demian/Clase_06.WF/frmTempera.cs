@@ -13,11 +13,12 @@ namespace Clase_06.WF
 {
     public partial class frmTempera : Form
     {
-        private Tempera t;
-        public Tempera MiTempera { get { return this.t; } }
+        public Tempera t;
+
+        public Tempera frmTempObj { get { return this.t; } }
         public frmTempera()
         {
-            InitializeComponent();
+            InitializeComponent();            
             this.StartPosition = FormStartPosition.CenterParent;
             foreach(ConsoleColor c in Enum.GetValues(typeof(ConsoleColor)))
             {
@@ -29,7 +30,7 @@ namespace Clase_06.WF
 
         private void frmTempera_Load(object sender, EventArgs e)
         {
-
+            //this.t = new Tempera(ConsoleColor.Black, "asd", 2);
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
@@ -40,8 +41,9 @@ namespace Clase_06.WF
             bffMarca = this.txtMarca.Text;
             bffCantidad = int.Parse(this.txtCantidad.Text);
             clrInput = (ConsoleColor)this.cbColor.SelectedItem;
-            this.t = new Tempera(clrInput, bffMarca, bffCantidad);
-            MessageBox.Show(this.t);
+            Tempera buffer = new Tempera(clrInput, bffMarca, bffCantidad);
+            this.t = buffer;
+            MessageBox.Show((string)this.t);
             this.DialogResult = DialogResult.OK;
         }
 

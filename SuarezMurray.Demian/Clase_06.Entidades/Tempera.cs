@@ -18,9 +18,9 @@ namespace Clase_06.Entidades
             this.marca = brnd;
             this.cantidad = ammnt;
         }
-        public Tempera MiTempera {
+        /*public Tempera MiTempera {
             get { return this; }
-        }
+        }*/
         private string Mostrar()
         {
             string retString = "nullObject";
