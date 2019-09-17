@@ -33,13 +33,9 @@ namespace Clase_06.WF
             actualFrm.ShowDialog();
             if (actualFrm.DialogResult == DialogResult.OK)
             {
-                //this.lbPaleta.Items.Add((string)actualFrm.frmTempObj);
-                //this.lbPaleta.Items.Add("se presiono ok");
-            }
-            else
-            {
-                //this.lbPaleta.Items.Add("Se presiono cancelar");
-            }
+                mainPaleta += actualFrm.t;
+                this.MostrarTemperas();
+            }            
         }
 
         private void paletaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -63,21 +59,27 @@ namespace Clase_06.WF
             nwTempera.ShowDialog();
             if (nwTempera.DialogResult==DialogResult.OK)
             {
-                 /*
-                MessageBox.Show((string)this.mainPaleta.colores[0]);
-                MessageBox.Show((string)this.mainPaleta.colores[1]);
-                MessageBox.Show((string)this.mainPaleta.colores[2]);
-                MessageBox.Show((string)this.mainPaleta.colores[3]);
-                MessageBox.Show((string)this.mainPaleta.colores[4]);*/
-                //this.lbPaleta.Items.Add((string)nwTempera.frmTempObj);
+                
                 this.mainPaleta += nwTempera.t;
-                MessageBox.Show((string)this.mainPaleta);
+                this.MostrarTemperas();
+                //MessageBox.Show((string)this.mainPaleta);
             }            
         }
 
         private void btnSubtract_Click(object sender, EventArgs e)
         {
             lbPaleta.Items.Remove(lbPaleta.SelectedItem);
+        }
+        private void MostrarTemperas()
+        {
+            this.lbPaleta.Items.Clear();
+            foreach(Tempera t in this.mainPaleta.colores)
+            {
+                if (!Object.Equals(t,null))
+                {
+                    this.lbPaleta.Items.Add((string)t);                    
+                }
+            }
         }
     }
 }

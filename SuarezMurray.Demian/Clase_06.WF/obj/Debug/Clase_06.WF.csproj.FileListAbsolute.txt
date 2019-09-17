@@ -14,3 +14,17 @@ D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_06.WF\bin\Debug\Extensions.pdb
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.csproj.CopyComplete
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.exe
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.pdb
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\bin\Debug\Clase_06.WF.exe.config
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\bin\Debug\Clase_06.WF.exe
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\bin\Debug\Clase_06.WF.pdb
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\bin\Debug\Clase_06.Entidades.dll
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\bin\Debug\Clase_06.Entidades.pdb
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.csprojAssemblyReference.cache
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.Form1.resources
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.frmTempera.resources
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.Properties.Resources.resources
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.csproj.GenerateResource.cache
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.csproj.CoreCompileInputs.cache
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.csproj.CopyComplete
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.exe
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_06.WF\obj\Debug\Clase_06.WF.pdb

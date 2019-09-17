@@ -10,3 +10,9 @@ D:\VisualStudio\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.c
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.csproj.CoreCompileInputs.cache
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.dll
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.pdb
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\ClassLibrary1\bin\Debug\Extensions.dll
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\ClassLibrary1\bin\Debug\Extensions.pdb
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.csprojAssemblyReference.cache
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.csproj.CoreCompileInputs.cache
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.dll
+C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\ClassLibrary1\obj\Debug\Extensions.pdb

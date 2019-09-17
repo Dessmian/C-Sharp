@@ -43,7 +43,7 @@ namespace Clase_06.WF
             clrInput = (ConsoleColor)this.cbColor.SelectedItem;
             Tempera buffer = new Tempera(clrInput, bffMarca, bffCantidad);
             this.t = buffer;
-            MessageBox.Show((string)this.t);
+            //MessageBox.Show((string)this.t);
             this.DialogResult = DialogResult.OK;
         }
 

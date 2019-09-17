@@ -40,15 +40,20 @@ namespace Clase_06.Entidades
                 int i, j;
                 j = this.colores.Count();
                 retString = "Cantidad maxima: " + this.cantidadMaximaColores.ToString();
-                if (this.colores.Count().IsGreaterThan(0))
-                {
-                    //Usar foreach
+                if (this.colores.Count()>0)
+                {                    
                     retString += " Temperas: ";
-                    for (i=0; i<j;i++)
-                    {
-                        retString += " - ";
-                        retString += this.colores[i];
-                    }
+                    foreach(Tempera t in this.colores)
+                    { 
+                        if (object.Equals(t,null))
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            retString += t + " ";
+                        }
+                    }                    
                 }
             }
             return retString;
@@ -67,15 +72,7 @@ namespace Clase_06.Entidades
                         break;
                     }
                     i++;
-                }
-                /*for (i=0;i<this.cantidadMaximaColores;i++)
-                {
-                    if (this.colores[i].Equals(null))
-                    {
-                        retIndex = i;
-                        break;
-                    }
-                }*/
+                }                
             }
             return retIndex;
         }
@@ -88,31 +85,17 @@ namespace Clase_06.Entidades
             bool retBool = false;
             if (!inPalet.Equals(null))
             {
-                foreach(Tempera t in inPalet.colores)
+                foreach (Tempera t in inPalet.colores)
                 {
-                    if (!Object.Equals(t,null))
+                    if (!Object.Equals(t, null))
                     {
-
-                    if (t==inTemp)
-                    {
-                        retBool = true;
-                        break;
-                    }
-                    }
-                }
-                /*int i;
-                for (i=0;i<inPalet.cantidadMaximaColores;i++)
-                {
-                    //if (!inPalet.colores[i].Equals(null))
-                    //{
-                        if (inPalet.colores[i]==inTemp)
+                        if (t == inTemp)
                         {
-                              retBool = true;
-                              break;
+                            retBool = true;
+                            break;
                         }
-                    //}
-                    
-                }*/
+                    }
+                }                
             }
             return retBool;
         }
@@ -124,15 +107,16 @@ namespace Clase_06.Entidades
         {
             if (inPalet == inTemp)
             {
-                int i;
-                for (i=0;i<inPalet.cantidadMaximaColores;i++)
+                int i = 0;
+                foreach(Tempera t in inPalet.colores)
                 {
-                    if (inPalet.colores[i] == inTemp)
+                    if (t == inTemp)
                     {
                         inPalet.colores[i] += inTemp;
                         break;
                     }
-                }
+                    i++;
+                }                
             }
             else
             {

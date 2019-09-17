@@ -54,7 +54,7 @@ namespace Clase_06.Entidades
             {
                 if (inTwo.Equals(null))
                 {
-                    retBool = true;
+                    retBool = false;
                 }
             }
             return retBool;
