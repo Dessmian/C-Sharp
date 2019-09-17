@@ -1,0 +1,10 @@
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.ConsoleAplication.exe.config
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.ConsoleAplication.exe
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.ConsoleAplication.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.Entidades.dll
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.Entidades.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.csprojAssemblyReference.cache
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.csproj.CoreCompileInputs.cache
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.csproj.CopyComplete
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.exe
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.pdb
