@@ -12,7 +12,7 @@ namespace Ejercicio_13
         {
             Console.Title = "Ejercicio 13";
             Console.WriteLine("{0} - {1}", 7, Conversor.DecimalBinario(7.0));
-            Console.WriteLine("{0} - {1}", "1010", Conversor.BinarioDecimal("111"));
+            Console.WriteLine("{0} - {1}", "1010100011010", Conversor.BinarioDecimal("1010100011010"));
             Console.ReadKey();
         }
     }

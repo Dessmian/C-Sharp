@@ -19,12 +19,25 @@ namespace Ejercicio_13
             double retDouble = 0;
             int i, j;
             j = inString.Length - 1;
-            for (i=0;i<j;i++)
+            char actualValue;
+            for (i = 0; i < inString.Length; i++)
             {
-                //retDouble += Convert.ToDouble(inString.ElementAt(i) ) * (Math.Pow(2, j));
+                actualValue = inString[j];
                 j--;
+                if (actualValue == '0')
+                {
+                    continue;
+                }
+                else if (actualValue == '1')
+                {
+                    retDouble += (int)Math.Pow(2, i);
+                }
+                else
+                {
+                    break;
+                }
             }
-            return 0;
+            return retDouble;
         }
     }
 }
