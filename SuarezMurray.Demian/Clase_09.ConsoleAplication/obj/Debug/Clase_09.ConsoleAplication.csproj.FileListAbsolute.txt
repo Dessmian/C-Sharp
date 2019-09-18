@@ -8,3 +8,13 @@ D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.csproj.CopyComplete
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.exe
 D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.pdb
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.ConsoleAplication.exe.config
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.ConsoleAplication.exe
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.ConsoleAplication.pdb
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.Entidades.dll
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\bin\Debug\Clase_09.Entidades.pdb
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.csprojAssemblyReference.cache
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.csproj.CoreCompileInputs.cache
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.csproj.CopyComplete
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.exe
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_09.ConsoleAplication\obj\Debug\Clase_09.ConsoleAplication.pdb

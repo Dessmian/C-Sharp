@@ -1,0 +1,10 @@
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\bin\Debug\Clase_10.WindowsForm.exe.config
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\bin\Debug\Clase_10.WindowsForm.exe
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\bin\Debug\Clase_10.WindowsForm.pdb
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\obj\Debug\Clase_10.WindowsForm.csprojAssemblyReference.cache
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\obj\Debug\Clase_10.WindowsForm.FrmPrincipal.resources
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\obj\Debug\Clase_10.WindowsForm.Properties.Resources.resources
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\obj\Debug\Clase_10.WindowsForm.csproj.GenerateResource.cache
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\obj\Debug\Clase_10.WindowsForm.csproj.CoreCompileInputs.cache
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\obj\Debug\Clase_10.WindowsForm.exe
+D:\SuarezMurray\C-Sharp\SuarezMurray.Demian\Clase_10.WindowsForm\obj\Debug\Clase_10.WindowsForm.pdb
