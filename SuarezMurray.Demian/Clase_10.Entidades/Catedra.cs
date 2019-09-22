@@ -13,9 +13,14 @@ namespace Clase_10.Entidades
         public List<Alumno> Alumnos
         {
             get
-            {
+            {                
                 return this.alumnos;
             }
+            set
+            {                
+                this.alumnos = value;                
+            }
+            
         }
 
         public Catedra()

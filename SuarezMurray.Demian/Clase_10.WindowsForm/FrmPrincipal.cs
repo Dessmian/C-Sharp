@@ -26,6 +26,19 @@ namespace Clase_10.WindowsForm
 
         private void catedraToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FrmCatedra nuevaCatedra = new FrmCatedra();
+            nuevaCatedra.MdiParent = this;
+            //nuevaCatedra.Dock = DockStyle.Left;
+            nuevaCatedra.Show();
+        }
+
+        private void gbContenedor_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
 
         }
     }

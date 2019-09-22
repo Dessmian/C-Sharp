@@ -72,9 +72,9 @@ namespace Clase_10.Entidades
             return !(a1 == a2);
         }
         public static int OrdenarPorLegajoAsc(Alumno a1, Alumno a2)
-        {
+        {            
             int retInt = 0, comparison = 0;
-            comparison = a1.Legajo - a1.Legajo;
+            comparison = a1.Legajo - a2.Legajo;
             if (comparison > 0)
             {
                 retInt = 1;
@@ -96,6 +96,10 @@ namespace Clase_10.Entidades
             if (comparison > 0)
             {
                 retInt = 1;
+            }
+            if (comparison < 0)
+            {
+                retInt = -1;
             }
             return retInt;
         }
