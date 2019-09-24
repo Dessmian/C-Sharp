@@ -8,11 +8,14 @@ namespace Clase_10.Entidades
 {
     public class Alumno
     {
+        #region Atributos
         protected string apellido;
         protected string nombre;
         protected int legajo;
         protected ETipoExamen examen;
+        #endregion
 
+        #region SetGet
         public string Apellido
         {
             get
@@ -41,6 +44,9 @@ namespace Clase_10.Entidades
                 return this.examen;
             }
         }
+        #endregion
+
+        #region Constructores
         public Alumno(string apell, string nomb, int leg, ETipoExamen exam)
         {
             this.apellido = apell;
@@ -48,16 +54,9 @@ namespace Clase_10.Entidades
             this.legajo = leg;
             this.examen = exam;
         }
-        public static string Mostrar(Alumno inAlumno)
-        {
-            string al = "";
-            al += inAlumno.apellido + ", ";
-            al += inAlumno.nombre + ", ";
-            al += inAlumno.legajo.ToString() + ", ";
-            al += inAlumno.examen.ToString();
-            return al;
-        }
+        #endregion
 
+        #region Sobrecargas
         public static bool operator ==(Alumno a1, Alumno a2)
         {
             bool retBool = false;
@@ -70,6 +69,18 @@ namespace Clase_10.Entidades
         public static bool operator !=(Alumno a1, Alumno a2)
         {
             return !(a1 == a2);
+        }
+        #endregion
+
+        #region Metodos Estaticos
+        public static string Mostrar(Alumno inAlumno)
+        {
+            string al = "Apellido: ";
+            al += inAlumno.apellido + ", Nombre: ";
+            al += inAlumno.nombre + ", Legajo: ";
+            al += inAlumno.legajo.ToString() + ", Examen: ";
+            al += inAlumno.examen.ToString();
+            return al;
         }
         public static int OrdenarPorLegajoAsc(Alumno a1, Alumno a2)
         {            
@@ -107,7 +118,19 @@ namespace Clase_10.Entidades
         {
             return Alumno.OrdenarPorApellidoAsc(a2, a1);
         }
+        #endregion
 
+        #region Override
+        public override string ToString()
+        {
+            return Alumno.Mostrar(this);
+        }
+        public override bool Equals(object obj)
+        {
+            return (this==(Alumno)obj);
+        }
+        
+        #endregion
     }
 }
 

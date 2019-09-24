@@ -8,8 +8,11 @@ namespace Clase_10.Entidades
 {
     public class Catedra
     {
+        #region Atributos
         private List<Alumno> alumnos;
+        #endregion
 
+        #region SetGet
         public List<Alumno> Alumnos
         {
             get
@@ -22,12 +25,16 @@ namespace Clase_10.Entidades
             }
             
         }
+        #endregion
 
+        #region Constructores        
         public Catedra()
         {
             this.alumnos = new List<Alumno>();
         }
+        #endregion
 
+        #region Sobrecargas
         public static bool operator ==(Catedra c, Alumno a)
         {
             bool retBool = false;
@@ -81,5 +88,22 @@ namespace Clase_10.Entidades
             }
             return retBool;
         }
+        #endregion
+
+        #region Override
+        public override string ToString()
+        {
+            string alumnosEnCatedra = "";
+            foreach(Alumno item in this.alumnos)
+            {
+                alumnosEnCatedra += item.ToString() + "; ";
+            }
+            return alumnosEnCatedra;
+        }
+        public override bool Equals(object obj)
+        {
+            return this == (Catedra)obj;
+        }
+        #endregion
     }
 }

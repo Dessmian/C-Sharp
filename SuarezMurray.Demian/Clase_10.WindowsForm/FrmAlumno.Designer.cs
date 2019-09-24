@@ -51,14 +51,14 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(12, 48);
+            this.txtNombre.Location = new System.Drawing.Point(12, 47);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(219, 20);
             this.txtNombre.TabIndex = 1;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(12, 103);
+            this.txtApellido.Location = new System.Drawing.Point(12, 100);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(219, 20);
             this.txtApellido.TabIndex = 3;
@@ -66,7 +66,7 @@
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(12, 79);
+            this.lblApellido.Location = new System.Drawing.Point(12, 77);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(47, 13);
             this.lblApellido.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // txtLegajo
             // 
-            this.txtLegajo.Location = new System.Drawing.Point(12, 158);
+            this.txtLegajo.Location = new System.Drawing.Point(12, 153);
             this.txtLegajo.Name = "txtLegajo";
             this.txtLegajo.Size = new System.Drawing.Size(219, 20);
             this.txtLegajo.TabIndex = 5;
@@ -82,7 +82,7 @@
             // lblLegajo
             // 
             this.lblLegajo.AutoSize = true;
-            this.lblLegajo.Location = new System.Drawing.Point(12, 134);
+            this.lblLegajo.Location = new System.Drawing.Point(12, 130);
             this.lblLegajo.Name = "lblLegajo";
             this.lblLegajo.Size = new System.Drawing.Size(39, 13);
             this.lblLegajo.TabIndex = 4;
@@ -91,7 +91,7 @@
             // lblTipoExamen
             // 
             this.lblTipoExamen.AutoSize = true;
-            this.lblTipoExamen.Location = new System.Drawing.Point(12, 189);
+            this.lblTipoExamen.Location = new System.Drawing.Point(12, 183);
             this.lblTipoExamen.Name = "lblTipoExamen";
             this.lblTipoExamen.Size = new System.Drawing.Size(86, 13);
             this.lblTipoExamen.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             this.cmbTipoExamen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoExamen.FormattingEnabled = true;
-            this.cmbTipoExamen.Location = new System.Drawing.Point(12, 213);
+            this.cmbTipoExamen.Location = new System.Drawing.Point(12, 206);
             this.cmbTipoExamen.Name = "cmbTipoExamen";
             this.cmbTipoExamen.Size = new System.Drawing.Size(219, 21);
             this.cmbTipoExamen.TabIndex = 7;
@@ -153,14 +153,14 @@
         #endregion
 
         private System.Windows.Forms.Label lblNombre;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtApellido;
+        protected System.Windows.Forms.TextBox txtNombre;
+        protected System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.Label lblApellido;
-        private System.Windows.Forms.TextBox txtLegajo;
+        protected System.Windows.Forms.TextBox txtLegajo;
         private System.Windows.Forms.Label lblLegajo;
         private System.Windows.Forms.Label lblTipoExamen;
-        private System.Windows.Forms.ComboBox cmbTipoExamen;
-        private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button btnAceptar;
+        protected System.Windows.Forms.ComboBox cmbTipoExamen;
+        protected System.Windows.Forms.Button btnCancelar;
+        protected System.Windows.Forms.Button btnAceptar;
     }
 }

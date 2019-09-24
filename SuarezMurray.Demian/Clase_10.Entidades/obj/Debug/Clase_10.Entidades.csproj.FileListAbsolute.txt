@@ -4,3 +4,9 @@ C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\
 C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.dll
 C:\Users\screw\Desktop\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\bin\Debug\Clase_10.Entidades.dll
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\bin\Debug\Clase_10.Entidades.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.dll
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\Clase_10.Entidades\obj\Debug\Clase_10.Entidades.pdb

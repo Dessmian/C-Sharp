@@ -31,7 +31,7 @@ namespace Clase_10.WindowsForm
                 this.txtLegajo.Enabled = false;
             }
         }
-
+        
         public FrmAlumno()
         {
             InitializeComponent();
@@ -39,12 +39,12 @@ namespace Clase_10.WindowsForm
             {
                 this.cmbTipoExamen.Items.Add(ex);
             }
+            this.cmbTipoExamen.SelectedItem = ETipoExamen.Final;
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
-            this.cmbTipoExamen.SelectedItem = ETipoExamen.Primero;
             string bufferApellido, bufferNombre, bufferStringLegajo;
             int bufferLegajo;
             ETipoExamen bufferExamen;
