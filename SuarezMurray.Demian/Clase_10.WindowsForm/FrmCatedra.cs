@@ -8,9 +8,12 @@ namespace Clase_10.WindowsForm
 {
     public partial class FrmCatedra : Form
     {
+        #region Atributos
         private Catedra catedra;
         private List<AlumnoCalificado> alumnosCalificados;
+        #endregion
 
+        #region Constructor
         public FrmCatedra()
         {
             InitializeComponent();
@@ -23,7 +26,29 @@ namespace Clase_10.WindowsForm
                 this.cmbOrdenamientos.Items.Add(ord);
             }
         }
+        #endregion
 
+        #region Metodos
+        private void ActualizarListaAlumnosCalificados()
+        {
+            this.lbAlumnosCalificados.Items.Clear();
+            foreach (AlumnoCalificado almn in this.alumnosCalificados)
+            {
+                this.lbAlumnosCalificados.Items.Add(almn.ToString());
+            }
+        }
+
+        private void ActualizarListaAlumnos()
+        {
+            this.lbAlumnos.Items.Clear();                
+            foreach(Alumno almn in this.catedra.Alumnos)
+            {
+                this.lbAlumnos.Items.Add(almn.ToString());
+            }
+        }
+        #endregion
+
+        #region Eventos
         private void FrmCatedra_Load(object sender, EventArgs e)
         {
 
@@ -46,27 +71,15 @@ namespace Clase_10.WindowsForm
                 }
             }
         }
-        private void ActualizarListaAlumnos()
-        {
-            this.lbAlumnos.Items.Clear();                
-            foreach(Alumno almn in this.catedra.Alumnos)
-            {
-                this.lbAlumnos.Items.Add(almn.ToString());            //(Alumno.Mostrar(almn));
-            }
-        }
 
         private void cmbOrdenamientos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //MessageBox.Show("Se hizo click");
             string bufferOrdenamiento = this.cmbOrdenamientos.Text;
             List<Alumno> bufferCatedra = this.catedra.Alumnos;
             switch(bufferOrdenamiento)
             {
                 case "LegajoAscendiente":
-                    //bufferCatedra = this.catedra.Alumnos;             //no me gusta como quedo pero no encuentro
-                    bufferCatedra.Sort(Alumno.OrdenarPorLegajoAsc);     //manera de operar directamente sobre la
-                    //this.catedra.Alumnos = bufferCatedra;             //lista dado que el atributo alumnos es
-                    //this.ActualizarListaAlumnos();                               //privado
+                    bufferCatedra.Sort(Alumno.OrdenarPorLegajoAsc);     
                     break;                                              
                 case "LegajoDescendiente":
                     bufferCatedra.Sort(Alumno.OrdenarPorLegajoDesc);
@@ -86,7 +99,7 @@ namespace Clase_10.WindowsForm
 
         private void cmbOrdenamientos_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Se hizo click");
+            
         }
 
         private void lbAlumnos_SelectedIndexChanged(object sender, EventArgs e)
@@ -110,14 +123,11 @@ namespace Clase_10.WindowsForm
             if(index != -1)
             {
                 FrmAlumno mdFrmAlumno = new FrmAlumno();
-                List<Alumno> bufferAlumnos;
-                bufferAlumnos = this.catedra.Alumnos;
-                mdFrmAlumno.Alumno = bufferAlumnos.ElementAt(index);
+                mdFrmAlumno.Alumno = this.catedra.Alumnos[index];
                 mdFrmAlumno.ShowDialog();
                 if (mdFrmAlumno.DialogResult == DialogResult.OK)
                 {
-                    bufferAlumnos[index] = mdFrmAlumno.Alumno;
-                    this.catedra.Alumnos = bufferAlumnos;
+                    this.catedra.Alumnos[index] = mdFrmAlumno.Alumno;
                     this.ActualizarListaAlumnos();
                 }
             }
@@ -132,21 +142,13 @@ namespace Clase_10.WindowsForm
                 frmCalificar.ShowDialog();
                 if (frmCalificar.DialogResult == DialogResult.OK)
                 {
-                    this.catedra.Alumnos.RemoveAt(index);
                     this.alumnosCalificados.Add(frmCalificar.AlumnoCalificado);
                     this.ActualizarListaAlumnos();
                     this.ActualizarListaAlumnosCalificados();
+                    this.catedra.Alumnos.RemoveAt(index);
                 }
             }
         }
-        
-        private void ActualizarListaAlumnosCalificados()
-        {
-            this.lbAlumnosCalificados.Items.Clear();
-            foreach (AlumnoCalificado almn in this.alumnosCalificados)
-            {
-                this.lbAlumnosCalificados.Items.Add(almn.ToString());
-            }
-        }
+        #endregion
     }
 }
