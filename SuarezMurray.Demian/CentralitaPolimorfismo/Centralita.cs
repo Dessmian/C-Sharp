@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
-    class Centralita
+    public class Centralita
     {
         private List<Llamada> _listaDeLlamadas;
         protected string _razonsocial;
@@ -90,7 +90,7 @@ namespace CentralitaPolimorfismo
                 }
                 i--;
             }
-            if (i==0)
+            if (i==-1 && central._listaDeLlamadas.Count > 0)
             {
                 retbool = true;
             }
@@ -102,7 +102,7 @@ namespace CentralitaPolimorfismo
         }
         public static Centralita operator +(Centralita central, Llamada nuevaLlamada)
         {
-            if (central!=nuevaLlamada)
+            if (central != nuevaLlamada)
             {
                 central.AgregarLlamada(nuevaLlamada);
             }
@@ -111,12 +111,14 @@ namespace CentralitaPolimorfismo
 
         private string Mostrar()
         {
-            string retString = this._razonsocial + " Llamadas: \n";
+            StringBuilder retStr = new StringBuilder();
+            Llamada buffer;
+            retStr.AppendFormat("Centralita: {0} Llamadas: \r\n", this._razonsocial);
             foreach(Llamada item in this._listaDeLlamadas)
             {
-                retString += item.ToString() + "\n";
+                retStr.AppendFormat("{0}\r\n", item.ToString());
             }
-            return retString;
+            return retStr.ToString();
         }
         public override string ToString()
         {

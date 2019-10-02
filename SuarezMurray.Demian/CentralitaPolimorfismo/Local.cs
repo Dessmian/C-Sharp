@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
-    class Local:Llamada
+    public class Local:Llamada
     {
         protected float _costo;
 
@@ -36,15 +36,25 @@ namespace CentralitaPolimorfismo
 
         public override bool Equals(object obj)
         {
-            return obj is Local;
+            bool retBool = false;
+            if(obj is Local)
+            {
+                retBool = true;
+            }
+            return retBool;
         }
 
-        protected string Mostrar()
+        protected new string Mostrar()
         {
             StringBuilder blder = new StringBuilder();
             blder.AppendFormat("{0}", base.Mostrar());
             blder.AppendFormat("Costo: {0}", this.CostoLlamada.ToString());
             return blder.ToString();
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
     }
 }

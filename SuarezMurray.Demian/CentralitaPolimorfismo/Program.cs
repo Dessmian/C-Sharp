@@ -11,12 +11,11 @@ namespace CentralitaPolimorfismo
         static void Main(string[] args)
         {
             Centralita Telefonica = new Centralita("Telefonica");
-            Local l1 = new Local("Avellaneda",30,"Avellaneda",(float)2.65);
-            Provincial l2 = new Provincial("B.A.", Franja.Franja_1, 21, "La Pampa");
-            Local l3 = new Local("Avellaneda", 45, "Gerli", (float)1.99);
-            Provincial l4 = new Provincial("La Pampa", Franja.Franja_3, 21, "B.A.");
+            Llamada l1 = new Local("1111111",30,"222222222",(float)2.65);
+            Llamada l2 = new Provincial("3333333333", Franja.Franja_1, 21, "44444444");
+            Llamada l3 = new Local("555555555", 45, "66666666666", (float)1.99);
+            Llamada l4 = new Provincial("777777777", Franja.Franja_3, 21, "8888888888");
 
-            Console.WriteLine(Telefonica.ToString());
             Telefonica += l1;
             Console.WriteLine(Telefonica.ToString());
             Telefonica += l2;
@@ -24,6 +23,7 @@ namespace CentralitaPolimorfismo
             Telefonica += l3;
             Console.WriteLine(Telefonica.ToString());
             Telefonica += l4;
+            Console.WriteLine(Telefonica.ToString());
             Console.ReadKey();
         }
     }

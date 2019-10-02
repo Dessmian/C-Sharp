@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_10.WindowsForm", "Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo", "CentralitaPolimorfismo\CentralitaPolimorfismo.csproj", "{D6DD07DC-2044-43DA-BD10-26E90AD33150}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_12_WF", "..\..\CentralitaWindowsForms_starter\CentralitaWindowsForms\Clase_12_WF.csproj", "{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{D6DD07DC-2044-43DA-BD10-26E90AD33150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6DD07DC-2044-43DA-BD10-26E90AD33150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6DD07DC-2044-43DA-BD10-26E90AD33150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

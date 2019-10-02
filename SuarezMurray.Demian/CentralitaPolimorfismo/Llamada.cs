@@ -52,11 +52,11 @@ namespace CentralitaPolimorfismo
             retString.AppendFormat("Origen: {0}, ", this.NroOrigen);
             retString.AppendFormat("Destino: {0}, ", this.NroDestino);
             return retString.ToString();
-        }
+        }        
 
         public  static bool operator ==(Llamada uno, Llamada dos)
         {
-            bool retBool = false;
+            bool retBool = false;      
             if (uno.Equals(dos))
             {
                 if (uno.NroOrigen == dos.NroOrigen)
@@ -67,6 +67,7 @@ namespace CentralitaPolimorfismo
                     }
                 }
             }
+            
             
             return retBool;
         }

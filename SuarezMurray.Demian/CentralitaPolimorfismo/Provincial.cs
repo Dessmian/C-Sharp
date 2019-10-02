@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace CentralitaPolimorfismo
 {
-    class Provincial : Llamada
+    public class Provincial : Llamada
     {
         protected Franja _franjaHoraria;
 
         public Provincial(Franja miFranja, Llamada unaLlamada)
             :this(unaLlamada.NroOrigen,miFranja,unaLlamada.Duracion,unaLlamada.NroDestino)
         {
-
+            
         }
-        public Provincial(string origen, Franja miFranja, float duracion, string destino):base(duracion,origen,destino)
+        public Provincial(string origen, Franja miFranja, float duracion, string destino)
+            :base(duracion,origen,destino)
         {
             this._franjaHoraria = miFranja;
         }
@@ -51,19 +52,25 @@ namespace CentralitaPolimorfismo
 
         public override bool Equals(object obj)
         {
-            return obj is Provincial;
+            bool retBool = false;
+            if (obj is Provincial)
+            {
+                retBool = true;
+            }
+            return retBool;
         }
 
         protected override string Mostrar()
         {
-            return this.ToString();
+            StringBuilder llamadaProvincialString = new StringBuilder();
+            llamadaProvincialString.AppendFormat("{0}", base.Mostrar());
+            llamadaProvincialString.AppendFormat("Costo: {0} ", this.CalcularCosto().ToString());
+            llamadaProvincialString.AppendFormat("Franja: {0}", this._franjaHoraria.ToString());
+            return llamadaProvincialString.ToString();
         }
         public override string ToString()
         {
-            StringBuilder bldr = new StringBuilder();
-            bldr.AppendFormat("{0}", base.Mostrar());
-            bldr.AppendFormat("Franja: {0}", this._franjaHoraria.ToString());
-            return bldr.ToString();
+            return this.Mostrar();
         }
     }
 }
