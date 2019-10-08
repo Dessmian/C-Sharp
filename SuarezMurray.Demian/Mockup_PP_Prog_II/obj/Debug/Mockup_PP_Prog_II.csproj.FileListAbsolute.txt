@@ -1,0 +1,10 @@
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\bin\Debug\Mockup_PP_Prog_II.exe.config
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\bin\Debug\Mockup_PP_Prog_II.exe
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\bin\Debug\Mockup_PP_Prog_II.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\bin\Debug\Mockup_PP_Prog_II._Entidades.dll
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\bin\Debug\Mockup_PP_Prog_II._Entidades.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\obj\Debug\Mockup_PP_Prog_II.csprojAssemblyReference.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\obj\Debug\Mockup_PP_Prog_II.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\obj\Debug\Mockup_PP_Prog_II.csproj.CopyComplete
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\obj\Debug\Mockup_PP_Prog_II.exe
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II\obj\Debug\Mockup_PP_Prog_II.pdb

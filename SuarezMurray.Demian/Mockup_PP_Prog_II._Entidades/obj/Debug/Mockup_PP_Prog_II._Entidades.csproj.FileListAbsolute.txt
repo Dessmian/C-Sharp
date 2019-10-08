@@ -1,0 +1,6 @@
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II._Entidades\bin\Debug\Mockup_PP_Prog_II._Entidades.dll
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II._Entidades\bin\Debug\Mockup_PP_Prog_II._Entidades.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II._Entidades\obj\Debug\Mockup_PP_Prog_II._Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II._Entidades\obj\Debug\Mockup_PP_Prog_II._Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II._Entidades\obj\Debug\Mockup_PP_Prog_II._Entidades.dll
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Mockup_PP_Prog_II._Entidades\obj\Debug\Mockup_PP_Prog_II._Entidades.pdb

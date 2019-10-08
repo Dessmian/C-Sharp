@@ -108,7 +108,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\C-Sharp\SuarezMurray.Demian\CentralitaPolimorfismo\CentralitaPolimorfismo.csproj">
+    <ProjectReference Include="..\..\SuarezMurray.Demian\CentralitaPolimorfismo\CentralitaPolimorfismo.csproj">
       <Project>{d6dd07dc-2044-43da-bd10-26e90ad33150}</Project>
       <Name>CentralitaPolimorfismo</Name>
     </ProjectReference>

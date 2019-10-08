@@ -25,8 +25,9 @@ namespace CentralitaWindowsForms
 
         private void btnAceptar_Click_1(object sender, EventArgs e)
         {
+            Franja franja;
             this.llamadaActual = new Provincial
-                (this.txtOrigen.Text,(Franja)cboFranja.SelectedItem, float.Parse(this.txtDuracion.Text), this.txtDestino.Text);
+                (this.txtOrigen.Text,cboFranja.SelectedItem, float.Parse(this.txtDuracion.Text), this.txtDestino.Text);
             base.btnAceptar_Click(sender, e);
         }
     }
