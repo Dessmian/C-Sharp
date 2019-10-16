@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockup_PP_Prog_II", "Mockup
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockup_PP_Prog_II._Entidades", "Mockup_PP_Prog_II._Entidades\Mockup_PP_Prog_II._Entidades.csproj", "{A9B220E6-B3C0-49A9-8A65-BBB0EFB3D133}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepositoAutos.Entidades", "DepositoAutos.Entidades\DepositoAutos.Entidades.csproj", "{EE3BDAF6-03DB-4FBE-AE21-5E6453C78F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepositoAutos.ConsoleApp", "DepositoAutos.ConsoleApp\DepositoAutos.ConsoleApp.csproj", "{114059AA-3439-421E-94FA-7E403F60BDB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +181,14 @@ Global
 		{A9B220E6-B3C0-49A9-8A65-BBB0EFB3D133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B220E6-B3C0-49A9-8A65-BBB0EFB3D133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B220E6-B3C0-49A9-8A65-BBB0EFB3D133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3BDAF6-03DB-4FBE-AE21-5E6453C78F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3BDAF6-03DB-4FBE-AE21-5E6453C78F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3BDAF6-03DB-4FBE-AE21-5E6453C78F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3BDAF6-03DB-4FBE-AE21-5E6453C78F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114059AA-3439-421E-94FA-7E403F60BDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114059AA-3439-421E-94FA-7E403F60BDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114059AA-3439-421E-94FA-7E403F60BDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114059AA-3439-421E-94FA-7E403F60BDB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

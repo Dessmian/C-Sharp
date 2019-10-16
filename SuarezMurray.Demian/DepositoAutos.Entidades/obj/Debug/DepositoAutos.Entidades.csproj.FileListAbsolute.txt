@@ -1,0 +1,6 @@
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\DepositoAutos.Entidades\bin\Debug\DepositoAutos.Entidades.dll
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\DepositoAutos.Entidades\bin\Debug\DepositoAutos.Entidades.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\DepositoAutos.Entidades\obj\Debug\DepositoAutos.Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\DepositoAutos.Entidades\obj\Debug\DepositoAutos.Entidades.dll
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\DepositoAutos.Entidades\obj\Debug\DepositoAutos.Entidades.pdb
+D:\VisualStudio\C-Sharp\SuarezMurray.Demian\DepositoAutos.Entidades\obj\Debug\DepositoAutos.Entidades.csprojAssemblyReference.cache
