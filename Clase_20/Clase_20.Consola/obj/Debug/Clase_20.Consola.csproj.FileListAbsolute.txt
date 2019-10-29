@@ -1,0 +1,10 @@
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\bin\Debug\Clase_20.Consola.exe.config
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\bin\Debug\Clase_20.Consola.exe
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\bin\Debug\Clase_20.Consola.pdb
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\bin\Debug\Clase_20.dll
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\bin\Debug\Clase_20.pdb
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\obj\Debug\Clase_20.Consola.csprojAssemblyReference.cache
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\obj\Debug\Clase_20.Consola.csproj.CoreCompileInputs.cache
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\obj\Debug\Clase_20.Consola.csproj.CopyComplete
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\obj\Debug\Clase_20.Consola.exe
+c:\Users\alumno\source\repos\Clase_20\Clase_20.Consola\obj\Debug\Clase_20.Consola.pdb

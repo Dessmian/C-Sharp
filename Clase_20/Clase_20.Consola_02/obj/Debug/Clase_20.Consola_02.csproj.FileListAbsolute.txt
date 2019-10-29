@@ -1,0 +1,12 @@
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.Consola_02.exe.config
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.Consola_02.exe
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.Consola_02.pdb
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.dll
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\bin\Debug\IXML.dll
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.pdb
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\bin\Debug\IXML.pdb
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.csprojAssemblyReference.cache
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.csproj.CopyComplete
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.exe
+C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.pdb

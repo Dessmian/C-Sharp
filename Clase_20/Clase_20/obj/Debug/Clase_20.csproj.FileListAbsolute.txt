@@ -1,0 +1,9 @@
+c:\users\alumno\source\repos\Clase_20\Clase_20\bin\Debug\Clase_20.dll
+c:\users\alumno\source\repos\Clase_20\Clase_20\bin\Debug\Clase_20.pdb
+c:\users\alumno\source\repos\Clase_20\Clase_20\obj\Debug\Clase_20.csproj.CoreCompileInputs.cache
+c:\users\alumno\source\repos\Clase_20\Clase_20\obj\Debug\Clase_20.dll
+c:\users\alumno\source\repos\Clase_20\Clase_20\obj\Debug\Clase_20.pdb
+C:\Users\alumno\source\repos\Clase_20\Clase_20\obj\Debug\Clase_20.csprojAssemblyReference.cache
+C:\Users\alumno\source\repos\Clase_20\Clase_20\bin\Debug\IXML.dll
+C:\Users\alumno\source\repos\Clase_20\Clase_20\bin\Debug\IXML.pdb
+C:\Users\alumno\source\repos\Clase_20\Clase_20\obj\Debug\Clase_20.csproj.CopyComplete
