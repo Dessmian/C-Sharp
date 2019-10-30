@@ -10,3 +10,15 @@ C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Con
 C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.csproj.CopyComplete
 C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.exe
 C:\Users\alumno\source\repos\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.Consola_02.exe.config
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.Consola_02.exe
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.Consola_02.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.dll
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\bin\Debug\IXML.dll
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\bin\Debug\Clase_20.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\bin\Debug\IXML.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.csprojAssemblyReference.cache
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.csproj.CopyComplete
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.exe
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20.Consola_02\obj\Debug\Clase_20.Consola_02.pdb

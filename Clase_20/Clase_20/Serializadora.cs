@@ -23,19 +23,20 @@ namespace Clase_20
             {
                 throw e;
             }
-        }
+        }        
         public static bool Deserializar(IXML item, out object obj)
         {
             try
             {
-                obj = item.Leer(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) +
+                item.Leer(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) +
                      @"\DatosClase20\textoXML.xml");
+                obj = item;
                 return true;
             }
             catch(Exception e)
             {
                 throw e;
             }
-        }
+        }        
     }
 }

@@ -9,16 +9,17 @@ using InterfazXML;
 
 namespace Clase_20
 {
+    [XmlInclude(typeof(Alumno))]
+    [XmlInclude(typeof(Empleado))]
     public class Persona : IXML
     {
         public string nombre;
         public string apellido;
-        private int edad;
-        private List<string> apodos;
+        private int edad;        
 
         public Persona()
         {
-            this.apodos = new List<string>();
+            
         }
         public Persona(string nom, string apel)
             :this()
@@ -31,11 +32,11 @@ namespace Clase_20
         {
             this.edad = edad;
         }
-        public Persona(string nombre, string apellido, int edad, List<string> apodos)
-            :this(nombre,apellido,edad)
-        {
-            this.apodos = apodos;
-        }
+        //public Persona(string nombre, string apellido, int edad)
+        //    :this(nombre,apellido,edad)
+        //{
+            
+        //}
 
         public int Edad
         {
@@ -48,17 +49,17 @@ namespace Clase_20
                 this.edad = value;
             }
         }
-        public List<string> Apodos
-        {
-            get
-            {
-                return this.apodos;
-            }
-            set
-            {
-                this.apodos = value;
-            }
-        }
+        //public List<string> Apodos
+        //{
+        //    get
+        //    {
+        //        return this.apodos;
+        //    }
+        //    set
+        //    {
+        //        this.apodos = value;
+        //    }
+        //}
 
         public bool Guardar(string path)
         {

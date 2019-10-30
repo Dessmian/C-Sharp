@@ -3,3 +3,8 @@ C:\Users\alumno\source\repos\Clase_20\IXML\bin\Debug\IXML.pdb
 C:\Users\alumno\source\repos\Clase_20\IXML\obj\Debug\InterfazXML.csproj.CoreCompileInputs.cache
 C:\Users\alumno\source\repos\Clase_20\IXML\obj\Debug\IXML.dll
 C:\Users\alumno\source\repos\Clase_20\IXML\obj\Debug\IXML.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\IXML\bin\Debug\IXML.dll
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\IXML\bin\Debug\IXML.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\IXML\obj\Debug\InterfazXML.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\IXML\obj\Debug\IXML.dll
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\IXML\obj\Debug\IXML.pdb

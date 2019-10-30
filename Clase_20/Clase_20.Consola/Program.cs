@@ -23,7 +23,7 @@ namespace Clase_20.Consola
                 apodos.Add(apodo + i.ToString());
             }
             
-            Persona pUno = new Persona("Juan", "JUAN", 100, apodos);
+            Persona pUno = new Persona("Juan", "JUAN", 100);
             Persona pDos = new Persona("Perez", "PEREZ", 98);
             Console.Write(pUno.ToString());
             Console.Write(pDos.ToString());

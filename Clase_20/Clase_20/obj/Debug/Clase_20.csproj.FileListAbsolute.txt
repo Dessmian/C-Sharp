@@ -7,3 +7,12 @@ C:\Users\alumno\source\repos\Clase_20\Clase_20\obj\Debug\Clase_20.csprojAssembly
 C:\Users\alumno\source\repos\Clase_20\Clase_20\bin\Debug\IXML.dll
 C:\Users\alumno\source\repos\Clase_20\Clase_20\bin\Debug\IXML.pdb
 C:\Users\alumno\source\repos\Clase_20\Clase_20\obj\Debug\Clase_20.csproj.CopyComplete
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\bin\Debug\Clase_20.dll
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\bin\Debug\Clase_20.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\bin\Debug\IXML.dll
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\bin\Debug\IXML.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\obj\Debug\Clase_20.csprojAssemblyReference.cache
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\obj\Debug\Clase_20.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\obj\Debug\Clase_20.csproj.CopyComplete
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\obj\Debug\Clase_20.dll
+D:\VisualStudio\DemianMurray\C-Sharp\Clase_20\Clase_20\obj\Debug\Clase_20.pdb
