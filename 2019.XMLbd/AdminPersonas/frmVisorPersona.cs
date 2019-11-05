@@ -87,6 +87,7 @@ namespace AdminPersonas
         {
             int index = this.lstVisor.SelectedIndex;
             frmPersona frm = new frmPersona(this.misPersonas.ElementAt(index));
+            frm.Conexion = this.Conexion;
             frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
             if (frm.DialogResult == DialogResult.OK)
@@ -99,10 +100,24 @@ namespace AdminPersonas
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             int index = this.lstVisor.SelectedIndex;
-            //frmPersona frm = new frmPersona();
-            //frm.StartPosition = FormStartPosition.CenterScreen;
+            this.RemoveFromDB(index);
             this.misPersonas.RemoveAt(index);
             this.ActualizarLista();            
+        }
+
+        private void RemoveFromDB(int index)
+        {
+            Persona bufferPersona = this.misPersonas[index];
+            SqlCommand sqlCommand = new SqlCommand("DELETE FROM personas WHERE nombre = @nombre, " +
+                "apellido = @apellido, edad = @edad");
+            sqlCommand.CommandType = CommandType.Text;
+            sqlCommand.Connection = this.conexion;
+            sqlCommand.Parameters.AddWithValue("@nombre", bufferPersona.nombre);
+            sqlCommand.Parameters.AddWithValue("@apellido", bufferPersona.apellido);
+            sqlCommand.Parameters.AddWithValue("@edad", bufferPersona.edad.ToString());
+            this.conexion.Open();
+            sqlCommand.ExecuteNonQuery();
+            this.conexion.Close();
         }
     }
 }

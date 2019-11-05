@@ -19,6 +19,7 @@ namespace AdminPersonas
     {
         private List<Persona> lista;
         private SqlConnection conexion;
+        private DataTable tablaPersonas;
 
         public FrmPrincipal()
         {
@@ -26,6 +27,8 @@ namespace AdminPersonas
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
             this.lista = new List<Persona>();
+            this.conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+            this.CargarDataTable();
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -130,5 +133,19 @@ namespace AdminPersonas
             }
             this.conexion.Close();
         }
+
+        private void CargarDataTable()
+        {
+            this.tablaPersonas = new DataTable("personas");            
+            this.conexion.Open();//abro la conexion
+            SqlCommand sqlCommand = new SqlCommand();//instacion sqlcommand - el cual me permite realizar una transaccion sql
+            sqlCommand.Connection = this.conexion;//le asigno la conexion a sql command
+            sqlCommand.CommandType = CommandType.Text;//le indico que lo que se tranfiere es texto
+            sqlCommand.CommandText = ("SELECT * FROM personas");
+            SqlDataReader dataReader = sqlCommand.ExecuteReader();//leo la base de datos y guardo el contenido en sqlDataReader
+            this.tablaPersonas.Load(dataReader);
+            this.conexion.Close();            
+        }
+
     }
 }
