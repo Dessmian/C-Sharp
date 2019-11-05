@@ -18,6 +18,7 @@ namespace AdminPersonas
     public partial class FrmPrincipal : Form
     {
         private List<Persona> lista;
+        private SqlConnection conexion;
 
         public FrmPrincipal()
         {
@@ -61,6 +62,7 @@ namespace AdminPersonas
             try
             {
                 frmVisorPersona frm = new frmVisorPersona(this.lista);
+                frm.Conexion = this.conexion;
                 frm.StartPosition = FormStartPosition.CenterScreen;                
                 frm.Show();
                 this.lista = frm.ListaPersonas;
@@ -80,27 +82,53 @@ namespace AdminPersonas
         {
             try
             {
-                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion);//Conexion = nombre recurso
-                conexion.Open();
-                SqlCommand sqlCommand = new SqlCommand();
-                sqlCommand.Connection = conexion;
-                sqlCommand.CommandType = CommandType.Text;
-                sqlCommand.CommandText = ("SELECT TOP 1000 [id] ,[nombre] ,[apellido] ,[edad] FROM[personas_bd].[dbo].[personas]");
-                SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
-                while(sqlDataReader.Read() != false)
-                {
-                    Persona buffer = new Persona(
-                        (string)sqlDataReader["nombre"], (string)sqlDataReader["apellido"], (int)sqlDataReader["edad"]);
-                    this.lista.Add(buffer);
-                    MessageBox.Show(buffer.ToString());
-                }
-                MessageBox.Show("Se creo la conexion!");
-                conexion.Close();
+                this.conexion = new SqlConnection(Properties.Settings.Default.Conexion);//Conexion = nombre recurso (seteado en propiedades del proyecto)
+                MessageBox.Show("Se creo la conexion!");                
+                //conexion.Close();
             }
             catch(Exception exc)
             {
                 MessageBox.Show(exc.Message);
             }
+        }
+
+        private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //using (SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion))
+                //{
+                //    conexion.Open();
+                //    SqlCommand command = new SqlCommand("INSERT INTO[personas_bd].[dbo].[personas] (nombre, apellido, edad)" +
+                //        "VALUES (@nombre, @apellido, @edad)");
+                //    command.CommandType = CommandType.Text;
+                //    command.Connection = conexion;
+                //    //command.Parameters.AddWithValue("@nombre", )
+                    
+                //}
+            }
+            catch(Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
+        }
+
+        private void traerTodosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.conexion.Open();//abro la conexion
+            SqlCommand sqlCommand = new SqlCommand();//instacion sqlcommand - el cual me permite realizar una transaccion sql
+            sqlCommand.Connection = this.conexion;//le asigno la conexion a sql command
+            sqlCommand.CommandType = CommandType.Text;//le indico que lo que se tranfiere es texto
+            sqlCommand.CommandText = ("SELECT TOP 1000 [id] ,[nombre] ,[apellido] ,[edad] FROM[personas_bd].[dbo].[personas]");
+            SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();//leo la base de datos y guardo el contenido en sqlDataReader
+            while (sqlDataReader.Read() != false)//leo los datos tomados
+            {
+                Persona buffer = new Persona(
+                    (string)sqlDataReader["nombre"], (string)sqlDataReader["apellido"], (int)sqlDataReader["edad"]);
+                this.lista.Add(buffer);//creo una nueva persona por cada fila que lei
+                                       MessageBox.Show(buffer.ToString());
+            }
+            this.conexion.Close();
         }
     }
 }

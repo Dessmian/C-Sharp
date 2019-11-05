@@ -8,17 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
+using System.Data.SqlClient;
 
 namespace AdminPersonas
 {
     public partial class frmVisorPersona : Form
     {
         private List<Persona> misPersonas;
+        private SqlConnection conexion;
 
         public frmVisorPersona()
         {
             InitializeComponent();
             this.misPersonas = new List<Persona>();
+        }
+        public frmVisorPersona(SqlConnection connection)
+            :this()
+        {
+            this.conexion = connection;
         }
         public frmVisorPersona(List<Persona> lista)
             :this()
@@ -26,12 +33,28 @@ namespace AdminPersonas
             this.misPersonas = lista;
             this.ActualizarLista();
         }
+        public frmVisorPersona(List<Persona> lista, SqlConnection conection) 
+            : this(lista)
+        {
+            this.conexion = conection;
+        }
 
         public List<Persona> ListaPersonas
         {
             get
             {
                 return this.misPersonas;
+            }
+        }
+        public SqlConnection Conexion
+        {
+            get
+            {
+                return this.conexion;
+            }
+            set
+            {
+                this.conexion = value;
             }
         }
 
@@ -47,6 +70,10 @@ namespace AdminPersonas
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             frmPersona frm = new frmPersona();
+            if(this.conexion != null)
+            {
+                frm.Conexion = this.conexion;
+            }
             frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
             if (frm.DialogResult == DialogResult.OK)
