@@ -14,8 +14,8 @@ namespace AdminPersonas
 {
     public partial class frmVisorPersona : Form
     {
-        private List<Persona> misPersonas;
-        private SqlConnection conexion;
+        protected List<Persona> misPersonas;
+        protected SqlConnection conexion;
 
         public frmVisorPersona()
         {
@@ -58,7 +58,7 @@ namespace AdminPersonas
             }
         }
 
-        private void ActualizarLista()
+        protected virtual void ActualizarLista()
         {
             this.lstVisor.Items.Clear();
             foreach(Persona persona in this.misPersonas)
@@ -67,7 +67,7 @@ namespace AdminPersonas
             }
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        protected virtual void btnAgregar_Click(object sender, EventArgs e)
         {
             frmPersona frm = new frmPersona();
             if(this.conexion != null)
@@ -83,7 +83,7 @@ namespace AdminPersonas
             }
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
+        protected virtual void btnModificar_Click(object sender, EventArgs e)
         {
             int index = this.lstVisor.SelectedIndex;
             frmPersona frm = new frmPersona(this.misPersonas.ElementAt(index));
@@ -97,7 +97,7 @@ namespace AdminPersonas
             }
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
+        protected virtual void btnEliminar_Click(object sender, EventArgs e)
         {
             int index = this.lstVisor.SelectedIndex;
             this.RemoveFromDB(index);

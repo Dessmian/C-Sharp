@@ -20,15 +20,43 @@ namespace AdminPersonas
         private List<Persona> lista;
         private SqlConnection conexion;
         private DataTable tablaPersonas;
+        private SqlDataAdapter dataAdapter;
 
         public FrmPrincipal()
         {
-            InitializeComponent();
-            this.IsMdiContainer = true;
-            this.WindowState = FormWindowState.Maximized;
-            this.lista = new List<Persona>();
-            this.conexion = new SqlConnection(Properties.Settings.Default.Conexion);
-            this.CargarDataTable();
+            try
+            {
+                InitializeComponent();
+                this.IsMdiContainer = true;
+                this.WindowState = FormWindowState.Maximized;
+                this.lista = new List<Persona>();
+                this.conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+                this.CargarDataTable();
+
+
+
+
+                this.dataAdapter = new SqlDataAdapter("SELECT * FROM personas", this.conexion);
+                //dataAdapter.Fill(this.tablaPersonas);
+                dataAdapter.InsertCommand = new SqlCommand("INSERT INTO personas VALUES (@p1, @p2, @p3),com");
+                dataAdapter.UpdateCommand = new SqlCommand("UPDATE personas SET nombre = @p1, apellido = @p2" +
+                    ", edad = @p3 WHERE id = @p4");
+                dataAdapter.DeleteCommand = new SqlCommand("DELETE FROM personas WHERE id = @p1");
+                dataAdapter.InsertCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+                dataAdapter.InsertCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+                dataAdapter.InsertCommand.Parameters.Add("@p3", SqlDbType.Int, 1, "edad");
+                dataAdapter.InsertCommand.Parameters.Add("@p4", SqlDbType.Int, 1, "id");
+                dataAdapter.UpdateCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
+                dataAdapter.UpdateCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
+                dataAdapter.UpdateCommand.Parameters.Add("@p3", SqlDbType.Int, 1, "edad");
+                dataAdapter.UpdateCommand.Parameters.Add("@p4", SqlDbType.Int, 1, "id");
+                dataAdapter.DeleteCommand.Parameters.Add("@p1", SqlDbType.Int, 1, "id");
+                dataAdapter.Update(this.tablaPersonas);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -129,7 +157,7 @@ namespace AdminPersonas
                 Persona buffer = new Persona(
                     (string)sqlDataReader["nombre"], (string)sqlDataReader["apellido"], (int)sqlDataReader["edad"]);
                 this.lista.Add(buffer);//creo una nueva persona por cada fila que lei
-                                       MessageBox.Show(buffer.ToString());
+                //MessageBox.Show(buffer.ToString());
             }
             this.conexion.Close();
         }
@@ -147,5 +175,10 @@ namespace AdminPersonas
             this.conexion.Close();            
         }
 
+        private void dataTableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmVisorDatabase visorDatabase = new frmVisorDatabase(this.tablaPersonas);
+            visorDatabase.ShowDialog();
+        }
     }
 }

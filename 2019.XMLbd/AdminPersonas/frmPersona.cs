@@ -44,6 +44,7 @@ namespace AdminPersonas
         public frmPersona()
         {
             InitializeComponent();
+            this.modo = Modo.Nuevo;
         }
         private frmPersona(Modo modo) : this()
         {
@@ -66,21 +67,21 @@ namespace AdminPersonas
         {
             try
             {
-                if(this.modo == Modo.Nuevo)
-                {
+                //if(this.modo == Modo.Nuevo)
+                //{
                     this.miPersona = new Persona(this.txtNombre.Text, this.txtApellido.Text, int.Parse(this.txtEdad.Text));
-                    this.NewPersona();
-                }
-                else if (this.modo == Modo.Modificar)
-                {
-                    this.ModPersona();
-                }
+                    //this.NewPersona();
+                //}
+                //else if (this.modo == Modo.Modificar)
+                //{
+                    //this.ModPersona();
+                //}
                 this.DialogResult = DialogResult.OK;
             }
             catch(Exception exc)
             {
                 this.DialogResult = DialogResult.Retry;
-                MessageBox.Show(exc.Message);
+                MessageBox.Show(exc.Message + "\nEn metodo btnAceptar_Click de frmPersona");
             }
         }
 
