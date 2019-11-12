@@ -66,7 +66,13 @@ namespace AdminPersonas
                 this.lstVisor.Items.Add(persona.ToString());
             }
         }
-
+        private void activarModElim(object sender, EventArgs e)
+        {
+            this.btnEliminar.Click -= new EventHandler(btnEliminar_Click);
+            this.btnModificar.Click -= new EventHandler(btnModificar_Click);
+            this.btnEliminar.Click += new EventHandler(btnEliminar_Click);
+            this.btnModificar.Click += new EventHandler(btnModificar_Click);
+        }
         protected virtual void btnAgregar_Click(object sender, EventArgs e)
         {
             frmPersona frm = new frmPersona();
@@ -118,6 +124,11 @@ namespace AdminPersonas
             this.conexion.Open();
             sqlCommand.ExecuteNonQuery();
             this.conexion.Close();
+        }
+
+        protected virtual void frmVisorPersona_Load(object sender, EventArgs e)
+        {
+            this.btnAgregar.Click += new EventHandler(btnAgregar_Click);
         }
     }
 }

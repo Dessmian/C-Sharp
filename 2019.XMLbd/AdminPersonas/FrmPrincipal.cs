@@ -38,10 +38,10 @@ namespace AdminPersonas
 
                 this.dataAdapter = new SqlDataAdapter("SELECT * FROM personas", this.conexion);
                 //dataAdapter.Fill(this.tablaPersonas);
-                dataAdapter.InsertCommand = new SqlCommand("INSERT INTO personas VALUES (@p1, @p2, @p3),com");
-                dataAdapter.UpdateCommand = new SqlCommand("UPDATE personas SET nombre = @p1, apellido = @p2" +
-                    ", edad = @p3 WHERE id = @p4");
-                dataAdapter.DeleteCommand = new SqlCommand("DELETE FROM personas WHERE id = @p1");
+                dataAdapter.InsertCommand = new SqlCommand("INSERT INTO personas VALUES (@p1, @p2, @p3)", this.conexion);
+                dataAdapter.UpdateCommand = new SqlCommand("UPDATE personas SET nombre = @p1, apellido = @p2," +
+                    " edad = @p3 WHERE id = @p4", this.conexion);
+                dataAdapter.DeleteCommand = new SqlCommand("DELETE FROM personas WHERE id = @p1", this.conexion);
                 dataAdapter.InsertCommand.Parameters.Add("@p1", SqlDbType.VarChar, 50, "nombre");
                 dataAdapter.InsertCommand.Parameters.Add("@p2", SqlDbType.VarChar, 50, "apellido");
                 dataAdapter.InsertCommand.Parameters.Add("@p3", SqlDbType.Int, 1, "edad");
@@ -51,7 +51,7 @@ namespace AdminPersonas
                 dataAdapter.UpdateCommand.Parameters.Add("@p3", SqlDbType.Int, 1, "edad");
                 dataAdapter.UpdateCommand.Parameters.Add("@p4", SqlDbType.Int, 1, "id");
                 dataAdapter.DeleteCommand.Parameters.Add("@p1", SqlDbType.Int, 1, "id");
-                dataAdapter.Update(this.tablaPersonas);
+                //dataAdapter.Update(this.tablaPersonas);
             }
             catch(Exception e)
             {
@@ -177,8 +177,35 @@ namespace AdminPersonas
 
         private void dataTableToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmVisorDatabase visorDatabase = new frmVisorDatabase(this.tablaPersonas);
-            visorDatabase.ShowDialog();
+            try
+            {
+                frmVisorDatabase visorDatabase = new frmVisorDatabase(this.tablaPersonas);
+                visorDatabase.ShowDialog();
+                this.tablaPersonas = visorDatabase.Tabla;
+                this.conexion.Open();
+                this.dataAdapter.Update(this.tablaPersonas);
+                this.conexion.Close();
+            }
+            catch(Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
         }
+
+        //private void UpdateDatabase()
+        //{
+        //    try
+        //    {
+        //        SqlBulkCopy bulkCopy = new SqlBulkCopy(this.conexion);
+        //        bulkCopy.DestinationTableName = "personas";
+        //        this.conexion.Open();
+        //        bulkCopy.WriteToServer(this.tablaPersonas);
+        //        this.conexion.Close();
+        //    }
+        //    catch(Exception e)
+        //    {
+        //        MessageBox.Show(e.Message);
+        //    }
+        //}
     }
 }

@@ -37,7 +37,7 @@ namespace AdminPersonas
             {
                 this.tabla = value;
             }
-        }
+        }        
 
         protected override void ActualizarLista()
         {
@@ -109,16 +109,55 @@ namespace AdminPersonas
                 MessageBox.Show(x.Message + "\nEn metodo btnModificar_Click.");
             }
         }
+        private DataRow GetPersonRow(int selectedIndex)
+        {
+            string item = this.lstVisor.Items[this.lstVisor.SelectedIndex].ToString();
+            string index;
+            foreach (DataRow fila in this.tabla.Rows)
+            {
+                if (fila.RowState != DataRowState.Deleted)
+                {
+                    index = "";
+                    for (int i = 0; item[i].ToString() != " "; i++)
+                    {
+                        index += item[i];
+                        if (i > 10)
+                        {
+                            break;
+                        }
+                    }
+                    if (fila[0].ToString() == index)
+                    {
+                        return int.Parse(fila[0].ToString());                        
+                    }
+                }
+            }
+            return -1;
+        }
         protected override void btnEliminar_Click(object sender, EventArgs e)
         {
             try
             {
                 string item = this.lstVisor.Items[this.lstVisor.SelectedIndex].ToString();
+                string index;
                 foreach(DataRow fila in this.tabla.Rows)
                 {
-                    if(fila[0].ToString() == item[0].ToString())
+                    if (fila.RowState != DataRowState.Deleted)
                     {
-                        fila.Delete();
+                        index = "";
+                        for (int i = 0; item[i].ToString() != " "; i++)
+                        {
+                            index += item[i];
+                            if (i > 10)
+                            {
+                                break;
+                            }
+                        }
+                        if (fila[0].ToString() == index)
+                        {
+                            fila.Delete();
+                            break;
+                        }
                     }
                 }
                 this.ActualizarLista();                
