@@ -127,16 +127,7 @@ namespace AdminPersonas
         {
             try
             {
-                //using (SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion))
-                //{
-                //    conexion.Open();
-                //    SqlCommand command = new SqlCommand("INSERT INTO[personas_bd].[dbo].[personas] (nombre, apellido, edad)" +
-                //        "VALUES (@nombre, @apellido, @edad)");
-                //    command.CommandType = CommandType.Text;
-                //    command.Connection = conexion;
-                //    //command.Parameters.AddWithValue("@nombre", )
-                    
-                //}
+                
             }
             catch(Exception exc)
             {

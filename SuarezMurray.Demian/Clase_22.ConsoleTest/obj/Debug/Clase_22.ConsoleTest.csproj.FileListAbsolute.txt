@@ -1,0 +1,10 @@
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\bin\Debug\Clase_22.ConsoleTest.exe.config
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\bin\Debug\Clase_22.ConsoleTest.exe
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\bin\Debug\Clase_22.ConsoleTest.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\bin\Debug\Clase_22.Entidades.dll
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\bin\Debug\Clase_22.Entidades.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\obj\Debug\Clase_22.ConsoleTest.csprojAssemblyReference.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\obj\Debug\Clase_22.ConsoleTest.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\obj\Debug\Clase_22.ConsoleTest.csproj.CopyComplete
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\obj\Debug\Clase_22.ConsoleTest.exe
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.ConsoleTest\obj\Debug\Clase_22.ConsoleTest.pdb

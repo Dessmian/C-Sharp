@@ -1,0 +1,6 @@
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.Entidades\bin\Debug\Clase_22.Entidades.dll
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.Entidades\bin\Debug\Clase_22.Entidades.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.Entidades\obj\Debug\Clase_22.Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.Entidades\obj\Debug\Clase_22.Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.Entidades\obj\Debug\Clase_22.Entidades.dll
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.Entidades\obj\Debug\Clase_22.Entidades.pdb

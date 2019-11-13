@@ -1,0 +1,13 @@
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.csprojAssemblyReference.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.frmEmpleado.resources
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.Properties.Resources.resources
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.csproj.GenerateResource.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\bin\Debug\Clase_22.WindowsForms.exe.config
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\bin\Debug\Clase_22.WindowsForms.exe
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\bin\Debug\Clase_22.WindowsForms.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\bin\Debug\Clase_22.Entidades.dll
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\bin\Debug\Clase_22.Entidades.pdb
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.csproj.CopyComplete
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.exe
+D:\VisualStudio\DemianMurray\C-Sharp\SuarezMurray.Demian\Clase_22.WindowsForms\obj\Debug\Clase_22.WindowsForms.pdb

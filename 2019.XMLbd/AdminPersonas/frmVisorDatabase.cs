@@ -89,18 +89,19 @@ namespace AdminPersonas
         {
             try
             {
-                int index = this.lstVisor.SelectedIndex;
-                DataRow fila = this.tabla.Rows[index];
-                frmPersona frmPersona = new frmPersona(this.misPersonas[index]);
+                int personaListIndex = this.lstVisor.SelectedIndex;
+                int dataRowIndex = this.GetPersonRowIndex(personaListIndex);
+                DataRow fila = this.tabla.Rows[dataRowIndex];
+                frmPersona frmPersona = new frmPersona(this.misPersonas[personaListIndex]);
                 frmPersona.ShowDialog();
                 if(frmPersona.DialogResult == DialogResult.OK)
                 {
                     fila[1] = frmPersona.Persona.nombre;
                     fila[2] = frmPersona.Persona.apellido;
                     fila[3] = frmPersona.Persona.edad.ToString();
-                    this.misPersonas[index].nombre = frmPersona.Persona.nombre;
-                    this.misPersonas[index].apellido = frmPersona.Persona.apellido;
-                    this.misPersonas[index].edad = frmPersona.Persona.edad;
+                    this.misPersonas[personaListIndex].nombre = frmPersona.Persona.nombre;
+                    this.misPersonas[personaListIndex].apellido = frmPersona.Persona.apellido;
+                    this.misPersonas[personaListIndex].edad = frmPersona.Persona.edad;
                     this.ActualizarLista();
                 }
             }
@@ -109,28 +110,30 @@ namespace AdminPersonas
                 MessageBox.Show(x.Message + "\nEn metodo btnModificar_Click.");
             }
         }
-        private DataRow GetPersonRow(int selectedIndex)
+        private int GetPersonRowIndex(int selectedIndex)
         {
             string item = this.lstVisor.Items[this.lstVisor.SelectedIndex].ToString();
-            string index;
+            string indexPersona;
+            int indexRow = 0;
             foreach (DataRow fila in this.tabla.Rows)
             {
                 if (fila.RowState != DataRowState.Deleted)
                 {
-                    index = "";
+                    indexPersona = "";
                     for (int i = 0; item[i].ToString() != " "; i++)
                     {
-                        index += item[i];
-                        if (i > 10)
+                        indexPersona += item[i];
+                        if (i > 5)
                         {
                             break;
                         }
                     }
-                    if (fila[0].ToString() == index)
+                    if (fila[0].ToString() == indexPersona)
                     {
-                        return int.Parse(fila[0].ToString());                        
+                        return indexRow;                       
                     }
                 }
+                indexRow++;
             }
             return -1;
         }
@@ -139,6 +142,7 @@ namespace AdminPersonas
             try
             {
                 string item = this.lstVisor.Items[this.lstVisor.SelectedIndex].ToString();
+                this.misPersonas.RemoveAt(this.lstVisor.SelectedIndex);
                 string index;
                 foreach(DataRow fila in this.tabla.Rows)
                 {
