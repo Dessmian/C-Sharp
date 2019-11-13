@@ -64,30 +64,18 @@ namespace Clase_22.Entidades
             set
             {
                 if(value > 18000)
-                {
-                    if(this.limiteSueldo != null && this.limiteSueldoMejorado != null)
-                    {
-                        this.limiteSueldo(value, this);
-                        if(value > 30000)
-                        {
-                            EmpleadoEventArgs args = new EmpleadoEventArgs();
-                            args.SualdoAsignar = value;
-                            this.limiteSueldoMejorado(this, args);
-                        }
-                    }
-                    else if(this.limiteSueldo != null && this.limiteSueldoMejorado == null)
+                {                    
+                    if(limiteSueldo != null)
                     {
                         this.limiteSueldo(value, this);
                     }
-                    else if(this.limiteSueldo == null && this.limiteSueldoMejorado != null)
+                    if(value > 30000 && limiteSueldoMejorado != null)
                     {
-                        if (value > 30000)
-                        {
-                            EmpleadoEventArgs args = new EmpleadoEventArgs();
-                            args.SualdoAsignar = value;
-                            this.limiteSueldoMejorado(this, args);
-                        }
+                        EmpleadoEventArgs args = new EmpleadoEventArgs();
+                        args.SualdoAsignar = value;
+                        this.limiteSueldoMejorado(this, args);
                     }
+                 
                 }
                 else
                 {

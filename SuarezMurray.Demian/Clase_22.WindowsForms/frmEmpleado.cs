@@ -37,9 +37,11 @@ namespace Clase_22.WindowsForms
                         break;
                     case "LimiteSueldoMejorado":
                         this.empleado.limiteSueldoMejorado += ManejadorLimiteSueldoMejorado;
+                        this.empleado.limiteSueldoMejorado += ManejadorLimiteSueldoMejorado2;
                         break;
                     case "Todos":
                         this.empleado.limiteSueldo += ManejadorLimiteSueldo;
+                        this.empleado.limiteSueldoMejorado += ManejadorLimiteSueldoMejorado;
                         this.empleado.limiteSueldoMejorado += ManejadorLimiteSueldoMejorado2;
                         break;
                     default:
